@@ -6,3 +6,6 @@
     border-radius: 50%;
 
 }
+img, p{
+    display: inline-block;
+}
