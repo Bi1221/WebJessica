@@ -74,6 +74,9 @@ integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm
         }
         .contaiiner{
           display: inline-block;
+          
+         
+         
         }
         .icone-divertido {
           display: flex; /* Define a exibição flexível para alinhar verticalmente */
@@ -99,6 +102,7 @@ integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm
 .icone-divertido i {
     font-size: 24px; /* Define o tamanho do ícone */
     margin-right: 10px; /* Espaço entre o ícone e o texto */
+    
 }
 
         html{
@@ -124,7 +128,7 @@ integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm
                <img  class="whatsapp" src="https://assets.boxloja.pro/shop/img/whatsapp.png" />
             </a>
         </div>
-        
+        <link href="https://www.iconfinder.com/search?q=Short&family=raw&price=free">
 </head>
 <body>
 
@@ -165,21 +169,22 @@ integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm
         </div>
       </nav>
 
-      <section class="jumbotron text-center corPrimaria">
-        <div class="container">
-          
-          <img src="img/WhatsApp Image 2023-08-15 at 13.40.21.jpeg" alt="Doutora" class="jeje">             
-          
-           
-          <h1 class="jumbotron-heading ">Jessica Tiemy Inoue</h1>
-                   
-          <p class="lead text-muted" display:inline-block; >
-            
-            "Médica Endocrinologista Pediátrica
-            com Título de Especialista pela Sociedade Brasileira de Pediatria
-            e pela Sociedade Brasileira de Endocrinologia e Metabologia."</p>
-            
-          <p>
+      <section class="text-center corPrimaria">
+        <section class="jumbotron text-center corPrimaria">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 order-md-1 text-md-right">
+                <img src="img/WhatsApp Image 2023-08-15 at 13.40.21.jpeg" alt="Doutora" class="jeje" style="width: 280px;">
+              </div>
+
+              <div class="col-md-6 order-md-2 text-md-left">
+                <h1 class="jumbotron-heading text-center">Jessica Tiemy Inoue</h1><br>
+                <p class="lead text-center">"Médica Endocrinologista Pediátrica com Título de Especialista pela Sociedade Brasileira de Pediatria e pela Sociedade Brasileira de Endocrinologia e Metabologia."</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        
             <style>
               .jeje{
                   width: 200px;
@@ -212,71 +217,50 @@ integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm
             </section>
             
             <!--Serviços-->
-            <section class="jumbotron text-centr corPrimaria " id="servicos">
+            <section class="jumbotron text-center corPrimaria" id="servicos">
               <div class="container">
                 <h2 class="jumbotron-heading text-center tit">Serviços</h2><br><br>
-
-
+            
                 <h3 class="jumbotron-heading text-center">Principais Atendimentos</h3><br>
-
-                <blockquote class="blockquote text-center">
-                  <div>
-                  
-                  <h5 class="jumbotron-heading text-center">Puberdade Precoce</h5>
-
-                  <i class="fas fa-user"></i>
-                  <p>O aparecimento de mamas, pelos pubianos ou o aumento dos testículos precocemente deve ser avaliado por um Endocrinologista Pediátrico. Crianças que iniciaram a puberdade na idade adequada, mas que apresentam um ritmo de desenvolvimento muito rápido também precisam passar em consulta com o especialista.</p><br>
+            
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="icone-divertivo">
+                      <h5 class="jumbotron-heading text-center">Puberdade Precoce</h5>
+                      <img src="img/Puberdade Precoce.png" alt="ícone" style="width: 50px; height: 50px;">
+                      <p>O aparecimento de mamas, pelos pubianos ou o aumento dos testículos precocemente deve ser avaliado por um Endocrinologista Pediátrico. Crianças que iniciaram a puberdade na idade adequada, mas que apresentam um ritmo de desenvolvimento muito rápido também precisam passar em consulta com o especialista.</p><br>
+                    </div>
+            
+                    <div class="icone-divertivo">
+                      <h5 class="jumbotron-heading text-center">Baixa Estatura</h5>
+                      <img src="img/8665021_arrow_down_wide_short_icon.png" alt="ícone" style="width: 50px; height: 50px;">
+                      <p>A criança que está ficando progressivamente menor que os amigos da mesma idade pode apresentar problemas de crescimento. Quanto mais cedo diagnosticado o problema e iniciado o tratamento específico, melhores os resultados.</p><br>
+                    </div>
+                  </div>
+            
+                  <div class="col-md-6">
+                    <div class="icone-divertivo">
+                      <h5 class="jumbotron-heading text-center">Alterações do Colesterol e dos Triglicerídeos</h5>
+                      <img src="img/Coração.png" alt="ícone" style="width: 50px; height: 50px;">
+                      <p>O colesterol é um tipo de gordura produzido no corpo que, em quantidades adequadas, é necessária para a manutenção da saúde. Quando os níveis estão elevados, o colesterol se deposita nos vasos sanguíneos, aumentando o risco de doenças como Infarto e Acidente Vascular Cerebral.</p><br>
+                    </div>
+            
+                    <div class="icone-divertivo">
+                      <h5 class="jumbotron-heading text-center">Obesidade</h5>
+                      <img src="img/Obesidade.png" alt="ícone" style="width: 60px; height: 60px;">
+                      <p>Crianças com excesso de peso têm 80% de chance de se tornarem adultos obesos. O acompanhamento endocrinológico é fundamental para mudar esse resultado. A obesidade está associada a aumento do risco de diversas doenças como Diabetes, Hipertensão e, inclusive, alguns tipos de Câncer.</p><br>
+                    </div>
+            
+                    <div class="icone-divertivo text-center">
+                      <h5 class="jumbotron-heading">Alterações da Tireóide</h5>
+                      <img src="img/estetoscópio.png" alt="ícone" style="width: 60px; height: 60px;">
+                      <p>Alterações da tireóide podem ocorrer desde o nascimento, podendo comprometer o crescimento e desenvolvimento neurológico das crianças. Quanto mais cedo for iniciado o tratamento, menores as chances de complicações.</p><br>
+                    </div>
+                  </div>
                 </div>
-
-                <div class="icone-divertivo">
-
-                  <h5 class="jumbotron-heading text-center">Baixa Estatura</h5>
-
-                  <i class="fas fa-smile"></i> 
-                  <p>A criança que está ficando progressivamente menor que os amigos da mesma idade pode apresentar problemas de crescimento. Quanto mais cedo diagnosticado o problema e iniciado o tratamento específico, melhores os resultados.</p><br>
-                </div>
-
-                
-                
-                  
-                  <h5 class="jumbotron-heading text-center">Alterações do Colesterol e dos Triglicerídeos</h5>
-
-                  <i class="fas fa-heartbeat"></i> 
-                  <p>O colesterol é um tipo de gordura produzido no corpo que, em quantidades adequadas, é necessária para a manutenção da saúde. Quando os níveis estão elevados, o colesterol se deposita nos vasos sanguíneos, aumentando o risco de doenças como Infarto e Acidente Vascular Cerebral.</p><br>
-
-
-                  
-
-                  
-                 
-                  <h5 class="jumbotron-heading text-center">Obesidade</h5>
-                  <i class="fas fa-user-plus"></i>
-                 
-                  <p>Crianças com excesso de peso têm 80% de chance de se tornarem adultos obesos. O acompanhamento endocrinológico é fundamental para mudar esse resultado. A obesidade está associada a aumento do risco de diversas doenças como Diabetes, Hipertensão e, inclusive, alguns tipos de Câncer.</p><br>
-
-                  
-                 
-                  
-                    <i class="fas fa-stethoscope"></i>
-                  <h5 class="jumbotron-heading text-center">Alterações da Tireóide</h5>
-                  
-                 
-                  <p>Alterações da tireóide podem ocorrer desde o nascimento, podendo comprometer o crescimento e desenvolvimento neurológico das crianças. Quanto mais cedo for iniciado o tratamento, menores as chances de complicações.</p><br>
-
-                  
-             
-                </blockquote>
               </div>
             </section>
-
-      <!--Contato-->
-      <section class="corTerceira" id="entre-em-contato">
-        <div>
-          <div class="container-fluid"></div>
-          <h5 class="text-center">Disponivel para contato</h5>
-          <h6 class="text-center">drajessicainoue@gmail.com</h6>
-        </div>
-      </section>
+            
 
 
 <!--Footer-->
